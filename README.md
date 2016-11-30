@@ -5,7 +5,7 @@
 
 ## Get
 
-`docker pull dancasey/cbench`
+`docker pull dancasey/docker-cbench`
 
 
 ## Use
