@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 RUN git clone git://github.com/mininet/mininet \
     && cd mininet \
-    && git checkout -b 2.2.1 \
+    && git checkout -b 2.2.1 2.2.1 \
     && cd ..
 
 RUN mininet/util/install.sh -n
